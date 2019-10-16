@@ -1,5 +1,5 @@
-# DREC (Discrete RECommendation)
-A library for discrete recommendation algorithms. 
+# Anti sparse CML
+Reproduce results of the paper.
 
 ### Build the docker
 In the repository directory, run:
