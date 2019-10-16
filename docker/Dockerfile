@@ -18,7 +18,8 @@ RUN conda install -c anaconda tensorflow-gpu
 RUN conda install -c anaconda pandas
 RUN conda install -c anaconda line_profiler
 RUN pip install ray
-RUN conda install -c anaconda psutil 
+RUN conda install -c anaconda psutil
+RUN conda install -c anaconda scikit-learn
 
 WORKDIR /workspace/DREC
 ENV PYTHONPATH /workspace/DREC
