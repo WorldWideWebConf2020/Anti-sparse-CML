@@ -12,7 +12,7 @@ datasets = ['ml-1m']
 
 r_list = [8, 16, 32, 64, 128, 256]
 margins = [0.25, 0.5, 0.75, 1]
-lambdas = np.logspace(1e-4, 1e-1, 10)
+lambdas = np.logspace(-4, -1, 10)
 
 params = {}
 params['seed'] = 42
